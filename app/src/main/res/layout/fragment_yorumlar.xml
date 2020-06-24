@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE8E1FF"
+    tools:context="com.gok.selin.saywhatyouthinkapp.YorumlarFragment">
+
+
+    <TextView
+        android:id="@+id/textViewYorumlar"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#9c80f7"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="90dp"
+        android:text="Yorumlar" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewYorumlar"
+        android:layout_below="@+id/textViewYorumlar"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

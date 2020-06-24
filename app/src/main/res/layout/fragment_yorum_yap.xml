@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFECD7E6"
+    tools:context="com.gok.selin.saywhatyouthinkapp.YorumYapFragment">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textColor="#FF51D49C"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Yorumunu Yap!" />
+
+    <EditText
+        android:id="@+id/editTextKonu"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:inputType="textPersonName"
+        android:hint="Konu" />
+
+    <EditText
+        android:id="@+id/editTextDetay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextKonu"
+        android:layout_alignStart="@+id/editTextKonu"
+        android:layout_below="@+id/editTextKonu"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:hint="Konu" />
+
+    <Button
+        android:id="@+id/buttonYolla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDetay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="YOLLA"
+        android:textColor="#FF959796"
+        android:background="#FF51D49C"
+        />
+</RelativeLayout>
